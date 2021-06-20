@@ -6,7 +6,7 @@ import "../styles/App.css";
 
 
 const App = ({location, forecasts}) => (
-  <div className="forecast">
+  <div className="weather-app">
     <LocationDetails
       city={location.city}
       country={location.country}
