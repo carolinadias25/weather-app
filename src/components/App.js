@@ -1,16 +1,20 @@
 import React from "react";
 import LocationDetails from './LocationDetails';
+import ForecastSummaries from './ForecastSummaries';
 import "../styles/App.css";
 
 
 
-const App = ({location}) => {
-    return (
-      <div className="location-details">
-        <LocationDetails city={location.city} country={location.country} />
-      </div>
-    );
-  };
+const App = ({location, forecasts}) => (
+  <div className="forecast">
+    <LocationDetails
+      city={location.city}
+      country={location.country}
+    />
+
+    <ForecastSummaries forecasts={forecasts} />
+  </div>
+);
 
 
 
