@@ -2,9 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import WeatherIcon from "react-icons-weather";
 import moment from "moment";
+/* eslint-disable  no-unused-vars */
+
 
 const ForecastSummary = (props) => {
-    const { date, icon, temperature, description } = props;
+    const { date, icon, temperature, description, onSelect } = props;
   
     return (
       <div className="forecast-summary" data-testid="forecast-summary">
@@ -19,7 +21,8 @@ const ForecastSummary = (props) => {
           &deg;C
         </div>
         <div className="forecast-summary__description">{description}</div>
-      </div>
+      <button type="button"onClick={() => onSelect(date)} >More details</button>
+    </div>
     );
   };
 
@@ -29,6 +32,7 @@ ForecastSummary.propTypes = {
     date: PropTypes.number.isRequired,
     description: PropTypes.string.isRequired,
     icon: PropTypes.string.isRequired,
+    onSelect: PropTypes.func.isRequired,
     temperature: PropTypes.shape({
       min: PropTypes.number,
       max: PropTypes.number,
