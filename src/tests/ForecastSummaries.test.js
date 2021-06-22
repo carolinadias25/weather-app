@@ -6,7 +6,7 @@ describe("ForecastSummaries", () => {
   const validProps = {
     forecasts: [
       {
-        date: 1525046400000,
+        date: 1111111,
         description: "Stub description 1",
         icon: 800,
         temperature: {
@@ -15,7 +15,7 @@ describe("ForecastSummaries", () => {
         },
       },
       {
-        date: 1525046411111,
+        date: 2222222,
         description: "Stub description2",
         icon: 602,
         temperature: {
