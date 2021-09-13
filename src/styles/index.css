@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap");
 
 body {
-  background: #efeff5;
-  font-family: 'Noto Sans JP', sans-serif;
+  background-image: url("http://fc07.deviantart.net/fs71/i/2010/154/7/0/Above_the_clouds_by_bo0xVn.jpg");
+  font-family: "Noto Sans JP", sans-serif;
 }

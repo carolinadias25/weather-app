@@ -1,0 +1,9 @@
+.Info_Button {
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: #62c2cc;
+  border-radius: 20px;
+  margin: 5px;
+  color: black;
+  border-color: #e4f6f8;
+  width: 150px;
+}
