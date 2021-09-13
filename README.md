@@ -1,4 +1,4 @@
-## Weather-App
+## Weather App
 
 This a 5 day weather forecasting app built with React, the app allows the user to search for the weather within the UK.
 
