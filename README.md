@@ -4,6 +4,7 @@ This a 5 day weather forecasting app built with React, the app allows the user t
 
 ![Screenshot](images/screenshot.png)
 
+
 ## Install
 
 ```sh
