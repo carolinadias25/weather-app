@@ -2,7 +2,7 @@
 
 This a 5 day weather forecasting app built with React, the app allows the user to search for the weather within the UK.
 
-![Screenshot](images/screenshot.png)
+![](images/screenshot.png)
 
 ## Install
 
